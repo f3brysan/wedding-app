@@ -488,6 +488,7 @@
                         <img src="{{ asset('images/readme/icon-circle.png') }}" width="100"
                             height="100">
                         <br>
+                        <br>
                         <h1 style="font-family: 'Satisfy', Arial, serif">Lina Putri & Febry San</h1>
                         <p>                           
                             <small>Created with <a href="https://github.com/f3brysan/wedding-app.git" target="_blank">Love</a></small>                        
