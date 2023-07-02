@@ -1,7 +1,10 @@
 <?php
 
 use App\Http\Controllers\B\AuthController;
+use App\Http\Controllers\B\DashboardController;
+use App\Http\Controllers\B\Master\GaleryController;
 use App\Http\Controllers\F\UndanganController;
+use App\Http\Controllers\TujuanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 */
 // * frontend
 Route::get('/', [UndanganController::class,'index']);
+Route::get('kepada/{slug}', [UndanganController::class,'show']);
+Route::post('ucapan/store', [UndanganController::class,'store']);
 
 // * backend
 // AUTH
@@ -24,8 +29,14 @@ Route::post('login', [AuthController::class,'auth']);
 Route::post('logout', [AuthController::class,'logout']);
 
 // dashboard admin
-Route::get('login', [AuthController::class,'login'])->name('login');
+Route::get('dashboard', [DashboardController::class,'index']);
 
+// * master
+// master galery
+Route::prefix('master')->group(function () {
+    Route::get('/galery', [GaleryController::class,'index']);
+    Route::post('/galery/store', [GaleryController::class,'store']);
 
-
-
+    Route::get('/penerima', [TujuanController::class,'index']);
+    Route::post('/penerima/store', [TujuanController::class,'store']);
+});
