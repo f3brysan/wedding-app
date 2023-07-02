@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 */
 // * frontend
 Route::get('/', [UndanganController::class,'index']);
-Route::get('kepada/{slug}', [UndanganController::class,'show']);
+Route::get('nikah/{slug}', [UndanganController::class,'show']);
 Route::post('ucapan/store', [UndanganController::class,'store']);
 
 // * backend
@@ -29,11 +29,11 @@ Route::post('login', [AuthController::class,'auth']);
 Route::post('logout', [AuthController::class,'logout']);
 
 // dashboard admin
-Route::get('dashboard', [DashboardController::class,'index']);
+Route::get('dashboard', [DashboardController::class,'index'])->middleware('auth');
 
 // * master
 // master galery
-Route::prefix('master')->group(function () {
+Route::prefix('master')->middleware('auth')->group(function () {
     Route::get('/galery', [GaleryController::class,'index']);
     Route::post('/galery/store', [GaleryController::class,'store']);
 

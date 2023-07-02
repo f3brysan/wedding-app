@@ -181,9 +181,8 @@
             function addPicture() {
                 $("#modal-picture").modal('show');
                 $("#modal-picture-title").html("Tambah Penerima");
-
-            }                
-
+            }      
+                       
             $(document).ready(function() {
                 if ($("#form-penerima").length > 0) {
                     $("#form-penerima").validate({
@@ -214,6 +213,13 @@
                         }
                     });
                 }
+
+                $("body").on('click', '.kirimwa', function () {
+                var msg = $(this).attr('data-msg');
+                window.open(msg, '_blank');
+                console.log(msg);
+            });
+
             });
         </script>
     @endpush
