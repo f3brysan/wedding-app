@@ -19,21 +19,21 @@
     <!-- Facebook and Twitter integration -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="The Wedding of Lina Putri and Febry San" />
-    <meta property="og:image" content="images/readme/half%20circle-200.png" />
-    <meta property="og:url" content="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/" />
+    <meta property="og:image" itemprop="image" content="{{ asset('images/readme/icon-circle.png') }}" />
+    <meta property="og:url" content="{{ URL::to('/') }}" />
     <meta property="og:site_name" content="The Wedding of Lina Putri and Febry San" />
-    <meta property="og:description" content="The Wedding of Lina Putri and Febry San. Open source wedding invitation" />
+    <meta property="og:description" content="The Wedding of Lina Putri and Febry San. 15 Juli 2023" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@ngodingsolusi" />
-    <meta name="twitter:creator" content="@ngodingsolusi" />
-    <meta name="twitter:title" content="The Wedding of Lina Putri and Febry San" />
-    <meta name="twitter:description"
-        content="Open Source Wedding Invitation. The Wedding of Lina Putri and Febry San" />
-    <meta name="twitter:image" content="images/readme/half%20circle-200.png" />
-    <meta name="twitter:url" content="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/" />
+    <meta property="og:site_name" content="San Roque 2014 Pollos">
+<meta property="og:title" content="San Roque 2014 Pollos" />
+<meta property="og:description" content="Programa de fiestas" />
+<meta property="og:image" itemprop="image" content="http://pollosweb.wesped.es/programa_pollos/play.png">
+<meta property="og:type" content="website" />
+<meta property="og:updated_time" content="1440432930" />
 
-    <link rel="icon" href="{{ asset('/') }}images/readme/half%20circle-200.png">
+    
+
+    <link rel="icon" href="{{ asset('images/readme/icon-circle.png') }}">
 
     <!--
       //////////////////////////////////////////////////////
@@ -149,7 +149,6 @@
                                 <p style="margin-bottom: 0">{{ $penerima->nama }}</p>
                             @endif
                             <p>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
-
                             <button class="btn btn-primary" id="open-invitation">Buka Undangan</button>
                         </div>
                     </div>
@@ -182,8 +181,7 @@
                         <p>
                             <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2RqN2lxcWQ2NzlhNXA5OWpiNmQwbTIxdTEgZmVicnlzYW4xOTk1QG0&tmsrc=febrysan1995%40gmail.com"
                                 target="_blank" class="btn btn-primary btn-sm">Save the date</a><br>
-                            <i style="font-size: 15px">*Klik tombol ini untuk menyimpan tanggal pada google
-                                kalender</i>
+                            <i style="font-size: 15px">*Klik tombol ini untuk menyimpan tanggal pada google kalender</i>
                         </p>
                     </div>
                 </div>
@@ -225,15 +223,7 @@
                                 <span class="parents-font">Bpk. IPDA (Purn) Iswahyudi</span>
                                 <br>
                                 <span class="parents-font">Ibu Dewi Purwaningsih</span>
-                            </p>
-                            <div id="social-media-rehan">
-                                {{-- <ul class="fh5co-social-icons">
-                                    <li><a target="_blank" href="https://github.com/rayhanyulanda"><i
-                                                class="icon-github-with-circle"></i></a></li>
-                                    <li><a target="_blank" href="https://www.linkedin.com/in/rayhanyulanda/"><i
-                                                class="icon-linkedin-with-circle"></i></a></li>
-                                </ul> --}}
-                            </div>
+                            </p>                            
                         </div>
                     </div>
                     <p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -248,21 +238,7 @@
                                 <span class="parents-font">Bpk. Habib Soleh</span>
                                 <br>
                                 <span class="parents-font">Ibu Indah Kartining</span>
-                            </p>
-                            <div id="social-media-molid">
-                                {{-- <ul class="fh5co-social-icons">
-                                    <li><a target="_blank" href="https://github.com/maulidandev"><i
-                                                class="icon-github-with-circle"></i></a></li>
-                                    <li><a target="_blank" href="https://www.linkedin.com/in/maulidandev/"><i
-                                                class="icon-linkedin-with-circle"></i></a></li>
-                                    <li><a target="_blank" href="https://www.instagram.com/maulidannashuha/"><i
-                                                class="icon-instagram-with-circle"></i></a></li>
-                                    <li><a target="_blank" href="https://www.facebook.com/maulidannashuha"><i
-                                                class="icon-facebook-with-circle"></i></a></li>
-                                    <li><a target="_blank" href="https://twitter.com/ngodingsolusi"><i
-                                                class="icon-twitter-with-circle"></i></a></li>
-                                </ul> --}}
-                            </div>
+                            </p>                           
                         </div>
                     </div>
                 </div>
@@ -320,11 +296,7 @@
                                 <a href="https://goo.gl/maps/RwGWh9wPUYzDQ9hF8" target="_blank"
                                     class="btn btn-primary">Penunjuk Lokasi <i class="icon-map2"></i></a>
                             </div>
-                        </div>
-                        <!--<div class="col-md-12 animate-box" style="margin-top: 15px;">
-                        <iframe width="100%" height="400" style="border: 0; border-radius: 5px;" frameborder="0" scrolling="no" src="https://calendar.google.com/calendar/embed?src=p68227rf4u2tqb5orkf10m3u44%40group.calendar.google.com&ctz=Asia%2FJakarta"></iframe>
-                        &lt;!&ndash;<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.658582822158!2d95.24281301476557!3d5.468657396034234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30403b4252a49dbd%3A0xa20ea2ca9164dce9!2sLhoknga%20Riverside!5e0!3m2!1sen!2sid!4v1627721471121!5m2!1sen!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>&ndash;&gt;
-                    </div>-->
+                        </div>                       
                     </div>
                 </div>
             </div>
@@ -351,58 +323,6 @@
             </div>
         </div>
 
-        <!--<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="display-t">
-                    <div class="display-tc">
-                        <div class="col-md-3 col-sm-6 animate-box">
-                            <div class="feature-center">
-                            <span class="icon">
-                                <i class="icon-users"></i>
-                            </span>
-
-                                <span class="counter js-counter" data-from="0" data-to="500" data-speed="5000" data-refresh-interval="50">1</span>
-                                <span class="counter-label">Estimated Guest</span>
-
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 animate-box">
-                            <div class="feature-center">
-                            <span class="icon">
-                                <i class="icon-user"></i>
-                            </span>
-
-                                <span class="counter js-counter" data-from="0" data-to="1000" data-speed="5000" data-refresh-interval="50">1</span>
-                                <span class="counter-label">We Catter</span>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 animate-box">
-                            <div class="feature-center">
-                            <span class="icon">
-                                <i class="icon-calendar"></i>
-                            </span>
-                                <span class="counter js-counter" data-from="0" data-to="402" data-speed="5000" data-refresh-interval="50">1</span>
-                                <span class="counter-label">Events Done</span>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 animate-box">
-                            <div class="feature-center">
-                            <span class="icon">
-                                <i class="icon-clock"></i>
-                            </span>
-
-                                <span class="counter js-counter" data-from="0" data-to="2345" data-speed="5000" data-refresh-interval="50">1</span>
-                                <span class="counter-label">Hours Spent</span>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
         <div id="fh5co-ayat">
             <!--<img height="400" width="100%" style="top: 0" src="{{ asset('/') }}images/background/wave-up.svg">-->
             <img height="400" width="100%" style="position: absolute; bottom: -175px"
@@ -508,43 +428,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        {{-- <p style="color: #bf9b73">dan mengikuti anjuran di bawah ini :</p>
-					<div class="row">
-						<div class="col-md-4 col-xs-6">
-							<div class="item-protocol">
-								<div class="icon">
-									<img style="padding: 10px" height="90px" width="90px" src="{{ asset('/') }}images/health-protocol/eating.png" alt="Adab makan minum"/>
-								</div>
-								<div class="description">
-									<h3>Makan Minum</h3>
-									<p>Mohon memperhatikan adab makan dan minum (duduk, membaca bismillah, tidak mencela makanan dan tidak mubazir)</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-xs-6">
-							<div class="item-protocol">
-								<div class="icon">
-									<img style="padding: 15px" height="100px" width="100px" src="{{ asset('/') }}images/health-protocol/no-shaking-hands.png" alt="Jaga jarak"/>
-								</div>
-								<div class="description">
-									<h3>Tidak Bercampur Baur</h3>
-									<p>Mohon untuk tidak bercampur baur dan tidak bersalaman antara tamu laki-laki dan perempuan termasuk saat berfoto (kecuali dengan mahram)</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-xs-6">
-							<div class="item-protocol">
-								<div class="icon">
-									<img style="padding: 10px" height="90px" width="90px" src="{{ asset('/') }}images/health-protocol/rug.png" alt="Sholat"/>
-								</div>
-								<div class="description">
-									<h3>Sholat</h3>
-									<p>Memperhatikan waktu shalat wajib dan tidak meninggalkannya</p>
-								</div>
-							</div>
-						</div>
-					</div> --}}
+                        </div>                       
                     </div>
                 </div>
             </div>
@@ -583,8 +467,7 @@
                 <br>
                 <div id="button-send" class="text-center animate-box">
                     <a href="javascript:void(0)" id="ucapan-btn" class="btn btn-primary btn-sm">Kirim Ucapan</a><a
-                        href="javascript:coid(0)" id="kado-btn" class="btn btn-primary btn-sm">Kirim Kado</a>
-                    {{-- <i style="font-size: 15px">Note : Hanya bisa diisi jika mempunyai akun github. Jika belum ada silahkan daftar terlebih dahulu</i> --}}
+                        href="javascript:coid(0)" id="kado-btn" class="btn btn-primary btn-sm">Kirim Kado</a>                   
                 </div>
                 <hr>
                 <div class="row">
@@ -611,24 +494,12 @@
                         <h3 style="color: #bf9b73">Wassalamu'alaikum Wr. Wb.</h3>
                         Jazakumullahu Khairan
                         </p>
-                        <img src="{{ asset('/') }}images/readme/half%20circle-200.png" width="100"
+                        <img src="{{ asset('images/readme/icon-circle.png') }}" width="100"
                             height="100">
                         <br>
                         <h1 style="font-family: 'Satisfy', Arial, serif">Lina Putri & Febry San</h1>
                         <p>                           
-                            <small>Created with <a href="">Love </a></small>
-                        {{-- <ul class="fh5co-social-icons">
-                            <li><a target="_blank" href="https://wa.me/6285360061021/"><i class="icon-phone"></i></a>
-                            </li>
-                            <li><a target="_blank" href="https://nikahdigital.com/"><i class="icon-globe"></i></a>
-                            </li>
-                            <li><a target="_blank" href="https://www.instagram.com/nikahdigitalcom/"><i
-                                        class="icon-instagram"></i></a></li>
-                            <li><a target="_blank" href="https://github.com/maulidandev"><i
-                                        class="icon-github"></i></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/in/maulidandev/"><i
-                                        class="icon-linkedin"></i></a></li>
-                        </ul> --}}
+                            <small>Created with <a href="https://github.com/f3brysan/wedding-app.git" target="_blank">Love</a></small>                        
                         </p>
                     </div>
                 </div>
@@ -791,22 +662,7 @@
             for (var i = 0; i < c.length; i++) {
             	c[i].classList.add('animate');
             }*/
-        });
-
-        $.get("https://api.github.com/repos/ngodingsolusi/the-wedding-of-rehan-maulidan/issues?state=all&per_page",
-            function(data) {
-                for (let i = 0; i < data.length; i++) {
-                    const item = `
-				<a class="list-group-item">
-					<div class="name"><span class="strong" style="font-size: 24px">${data[i].user.login}</span> <span class="label label-success">${data[i].labels.length > 0 ? data[i].labels[0].name : 'Tanpa Keterangan'}</span></div>
-					<hr style="margin-top: 0;">
-					<div class="comment">${new showdown.Converter().makeHtml(data[i].body)}</div>
-				</a>
-			`;
-
-                    $("#fh5co-testimonial .list-group").append(item);
-                }
-            });
+        });       
 
         function scrollToElement(el) {
             $("html, body").animate({
@@ -851,8 +707,8 @@
 
         function togglePlayButton1(play) {
             document.getElementById("youtube-icon1").src = play ?
-                "https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/images/audio/pause.png" :
-                "https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/images/audio/play.png";
+                "{{ asset('images/audio/pause.png') }}" :
+                "{{ asset('images/audio/play.png') }}";
         }
 
         function toggleAudio1() {
@@ -891,9 +747,9 @@
             if ((navigator.platform.indexOf("iPhone") != -1) ||
                 (navigator.platform.indexOf("iPod") != -1) ||
                 (navigator.platform.indexOf("iPad") != -1))
-                window.open("maps://www.google.com/maps?daddr=masjid+keuchik+leumik");
+                window.open("maps://goo.gl/maps/RwGWh9wPUYzDQ9hF8");
             else
-                window.open("https://www.google.com/maps?daddr=masjid+keuchik+leumik");
+                window.open("https://goo.gl/maps/RwGWh9wPUYzDQ9hF8");
         }
 
         function walimahLocation() {
@@ -901,9 +757,9 @@
             if ((navigator.platform.indexOf("iPhone") != -1) ||
                 (navigator.platform.indexOf("iPod") != -1) ||
                 (navigator.platform.indexOf("iPad") != -1))
-                window.open("maps://www.google.com/maps?daddr=Amel+Convention+Hall");
+                window.open("maps://goo.gl/maps/RwGWh9wPUYzDQ9hF8");
             else
-                window.open("https://www.google.com/maps?daddr=Amel+Convention+Hall");
+                window.open("https://goo.gl/maps/RwGWh9wPUYzDQ9hF8");
         }
     </script>
 
