@@ -22,7 +22,7 @@ Tanpa mengurangi rasa hormat. Kami mengundang Bapak/Ibu/Saudara/i '.$getData->na
 
 Pada tanggal 15 Juli 2023,
 Bertempat di Gedung Serbaguna UNESA Ketintang Jl. Ketintang Pratama, Surabaya, Jawa Timur.
-Berikut juga kami lampirkan undangan daring, Bapak/Ibu/Saudara/i '.$getData->nama.' dapat mengklik tautan berikut untuk menuju undangan pernikahan kami
+Mohon maaf undangan hanya dibagikan melalui pesan ini, Bapak/Ibu/Saudara/i '.$getData->nama.' dapat mengklik tautan berikut untuk menuju undangan pernikahan kami
 
 linaputri.febrysan.com/nikah/'.$getData->slug.'.
 
