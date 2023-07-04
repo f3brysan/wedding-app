@@ -12,7 +12,7 @@
     <title>The Wedding of Lina Putri & Febry San</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The Wedding of Lina Putri and Febry San" />
+    <meta name="description" content="The Wedding of Lina Putri and Febry San. 15 Juli 2023" />
     <meta name="keywords" content="wedding, wedding invitation, invitation, the wedding" />
     <meta name="author" content="Lina Putri & Febry San" />
 
@@ -23,6 +23,7 @@
     <meta property="og:url" content="{{ URL::to('/') }}" />
     <meta property="og:site_name" content="The Wedding of Lina Putri and Febry San" />
     <meta property="og:description" content="The Wedding of Lina Putri and Febry San. 15 Juli 2023" />
+    <link itemprop="thumbnailUrl" href="{{ asset('images/readme/icon-circle.png') }}"> <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject"> <link itemprop="url" href="{{ asset('images/readme/icon-circle.png') }}"> </span>
 
     <link rel="icon" href="{{ asset('images/readme/icon-circle.png') }}">
 
