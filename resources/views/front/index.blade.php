@@ -225,7 +225,7 @@
                                 class="img-responsive">
                         </div>
                         <div class="desc-bride">
-                            <h3>Febry San</h3>
+                            <h3>Febry Sanpratama</h3>
                             <p><span style="color: #bf9b73">Putra Pertama dari</span><br>
                                 <span class="parents-font">Bpk. Habib Soleh</span>
                                 <br>
