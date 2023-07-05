@@ -32,7 +32,7 @@ Pada tanggal 15 Juli 2023,
 Bertempat di Gedung Serbaguna UNESA Ketintang Jl. Ketintang Pratama, Surabaya, Jawa Timur.
 Mohon maaf undangan hanya dibagikan melalui pesan ini, Bapak/Ibu/Saudara/i '.$getData->nama.' dapat mengklik tautan berikut untuk menuju undangan pernikahan kami
 
-linaputri.febrysan.com/nikah/'.$getData->slug.'.
+linaputri.febrysan.com/nikah/'.$getData->slug.'
 
 Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu. Atas kehadiran dan doa restunya, kami mengucapkan terima kasih.
 Wassalamualaikum Wr. Wb.
