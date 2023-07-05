@@ -15,7 +15,7 @@ class TujuanController extends Controller
         if ($request -> ajax()) {
             return DataTables::of($getData)
                                 ->addColumn('baca_undangan', function ($getData) {
-                                    if ($getData == true) {
+                                    if ($getData->is_open == true) {
                                         return 'Sudah';
                                     } else {
                                         return 'Belum';
