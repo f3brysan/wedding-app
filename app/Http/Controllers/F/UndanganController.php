@@ -71,4 +71,13 @@ class UndanganController extends Controller
 
         return response()->json($data);
     }
+
+    public function api_open_undangan($slug)
+    {
+        $data = Tujuan::where('slug', $slug)->update([
+            'is_open' => true
+        ]);
+
+        return response()->json($data);
+    }
 }

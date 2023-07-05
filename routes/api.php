@@ -21,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('galery', [UndanganController::class,'api_galery']);
 Route::get('ucapan', [UndanganController::class,'api_ucapan']);
+Route::get('open-undangan/{slug}', [UndanganController::class,'api_open_undangan']);
