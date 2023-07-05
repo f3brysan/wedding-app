@@ -24,5 +24,6 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('admin123')
         ]);
         
+        $this->call(TrTujuanTableSeeder::class);
     }
 }
