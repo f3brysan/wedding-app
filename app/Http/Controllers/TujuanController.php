@@ -43,7 +43,7 @@ Lina Putri & Febry San';
                                     $btn .= '<a href="javascript:void(0)" data-toggle="tooltip"  data-id="'.$getData->id.'" data-original-title="Hapus" class="text-white px-1 btn btn-danger btn-sm hapus-link">Hapus</a>';
                                     return $btn;
                                 })
-                                ->rawColumns(['action'])
+                                ->rawColumns(['action','baca_undangan'])
                                 ->addIndexColumn()
                                 ->make(true);
         }

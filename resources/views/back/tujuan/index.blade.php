@@ -138,8 +138,8 @@
                             className: 'text-center'
                         },   
                         {
-                            data: 'is_open',
-                            name: 'is_open',
+                            data: 'baca_undangan',
+                            name: 'baca_undangan',
                             className: 'text-center'
                         },                     
                         {
