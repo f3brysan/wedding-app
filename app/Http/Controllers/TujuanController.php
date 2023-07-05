@@ -14,6 +14,14 @@ class TujuanController extends Controller
         $getData = Tujuan::all();
         if ($request -> ajax()) {
             return DataTables::of($getData)
+                                ->addColumn('baca_undangan', function ($getData) {
+                                    if ($getData == true) {
+                                        return 'Sudah';
+                                    } else {
+                                        return 'Belum';
+                                    }
+                                    
+                                })
                                 ->addColumn('action', function ($getData) {
                                     $wame = 'https://api.whatsapp.com/send/?phone='.$getData->telp.'&text=';
                                     $pesanWA = 
