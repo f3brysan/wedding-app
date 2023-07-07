@@ -97,6 +97,28 @@
         <div id="floating-button" class="float">
             <div class="control-center open">
                 <div class="audio-play">
+                    @php
+                        $list = array(
+                            '096688b2-b015-40a1-b9bf-799c92201a3a',
+                            '1dd6398e-8a4b-4301-a3e1-e870ec9fef56',
+                            'e1f02833-53d5-4cfd-8ea5-ed3979e827f6',
+                            '11196428-e230-4172-b0ab-c6bc3af0dfca',
+                            '176ab1f1-df3c-4055-b671-54c1805d2613',
+                            'a77c6dd3-7c6c-48c1-b39c-185e61d4bacb',
+                            '2a99a919-1f6f-4887-a3d6-f06192b0c2ba',
+                            '20c35964-471f-44d6-886d-598c13e410f2',
+                            '69279c3e-60ce-4357-ad1e-b67b0f7cc2cf',
+                            '859548b6-243c-4e13-b7b5-bfa82c69b194',
+                            '97b3d59e-3b2f-4730-aa45-a8d23ba4b119',
+                            '658e151a-0129-47c5-8899-5a54fbe76199')
+                    @endphp     
+                    @if (isset($penerima))
+                        @if (in_array($penerima->id,$list))
+                        <div data-video="Xl-qpzE41uU" data-autoplay="0" data-loop="1" id="youtube-audio1"></div>
+                        @else
+                        <div data-video="pivRDMCPIfg" data-autoplay="0" data-loop="1" id="youtube-audio1"></div>
+                        @endif                   
+                    @endif
                     <div data-video="pivRDMCPIfg" data-autoplay="0" data-loop="1" id="youtube-audio1"></div>
                 </div>
                 <ul class="right-sidebar">
